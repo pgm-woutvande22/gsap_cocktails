@@ -1,5 +1,8 @@
+import { useGSAP } from "@gsap/react"
 
 const Hero = () => {
+  useGSAP()
+
   return (
     <>
     <section id="hero" className="noisy">
